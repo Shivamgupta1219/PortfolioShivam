@@ -1,0 +1,9 @@
+<svg width="200px" height="200px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Moon -->
+  <path fill="#F5C518" d="M160 40a80 80 0 1 0 56 136 72 72 0 1 1-56-136z"/>
+  
+  <!-- Stars -->
+  <circle cx="60" cy="60" r="10" fill="#F5C518"/>
+  <circle cx="200" cy="80" r="8" fill="#F5C518"/>
+  <circle cx="100" cy="40" r="6" fill="#F5C518"/>
+</svg>

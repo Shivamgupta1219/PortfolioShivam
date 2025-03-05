@@ -1,0 +1,88 @@
+
+
+ .about-skills {
+     width: 100%;
+     height: auto;
+     border: 2px solid blue;
+     display: flex;
+     flex-direction: column;
+     gap: 80px;
+     margin: 80px 170px;
+ }
+
+ .about-skills {
+     display: flex;
+     gap: 40px;
+     align-items: center;
+     transition: 0.3s;
+     margin: 0px 30px 1px 40px;
+
+ }
+
+ .about-skill p {
+     min-width: 150px;
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .about-skill hr {
+
+     outline: none;
+     border: none;
+     width: 50%;
+     height: 8px;
+     border: 50px;
+     background: linear-gradient(264deg, #DF8905, #B415FF 106.28%);
+
+ }
+
+
+ .about-skill:hover {
+
+     transform: scale(1.05);
+     transition: 0.3s;
+ }import './Skill.css'
+
+function Skill() {
+  return (
+    <>
+      <div className='skill-section'>
+
+       <div className="about-skills">
+      <h1>Skills</h1>
+
+        <div className="about-skill">
+          <p>HTML&CSS </p>
+          <hr style={{ width: "50%" }} />
+        </div>
+
+        <div className="about-skill">
+          <p>REact JS</p>
+          <hr style={{ width: "70%" }} />
+        </div>
+
+        <div className="about-skill">
+          <p>JavaScript</p>
+          <hr style={{ width: "60%" }} />
+        </div>
+        <div className="about-skill">
+          <p>java</p>
+          <hr style={{ width: "50%" }} />
+        </div>
+        <div className="about-skill">
+          <p>java</p>
+          <hr style={{ width: "50%" }} />
+        </div>
+        <div className="about-skill">
+          <p>java</p>
+          <hr style={{ width: "50%" }} />
+        </div>
+      </div> 
+      
+    </div>
+    </>
+
+  )
+}
+
+export default Skill

@@ -1,0 +1,7 @@
+<svg width="200px" height="200px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Shape -->
+  <rect width="256" height="256" rx="48" fill="#7952B3"/>
+
+  <!-- Letter 'B' -->
+  <text x="50%" y="55%" font-size="130" font-family="Arial" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">B</text>
+</svg>
